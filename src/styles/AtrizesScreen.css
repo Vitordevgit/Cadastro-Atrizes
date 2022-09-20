@@ -1,0 +1,15 @@
+.atrizesFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.atrizesInputNomeCadastro {
+  width: 200px;
+}
+.atrizesInputIdadeCadastro {
+  width: 40px;
+}
+.atrizesInputButtonCadastro {
+  width: 200px;
+  margin: 0 auto;
+}
