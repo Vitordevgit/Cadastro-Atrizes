@@ -1,0 +1,44 @@
+{
+  "atrizes": [
+    {
+      "nome": "Angelina Jolie",
+      "idade": 30,
+      "id": 1
+    },
+    {
+      "nome": "Marilyn Moroe",
+      "idade": 33,
+      "id": 2
+    },
+    {
+      "nome": "Scarleth Johason",
+      "idade": "36",
+      "id": 3
+    },
+    {
+      "nome": "Lyndsey Lohan",
+      "idade": "31",
+      "id": 4
+    },
+    {
+      "nome": "Sandra Bullock",
+      "idade": "58",
+      "id": 5
+    },
+    {
+      "nome": "Halle Berry",
+      "idade": "56",
+      "id": 6
+    },
+    {
+      "nome": "Salma Hayek",
+      "idade": "56",
+      "id": 7
+    },
+    {
+      "nome": "Jennifer Aniston",
+      "idade": "53",
+      "id": 8
+    }
+  ]
+}

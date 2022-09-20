@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AtrizesScreen from "./pages/AtrizesScreen";
+import HomeScreen from "./pages/HomeScreen";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <h1>Cabeçalho</h1>
+        <NavBar />
+        <div className="containerNavegacao">
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/AtrizesScreen" element={<AtrizesScreen />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+      <h1>Rodapé</h1>
     </div>
   );
 }

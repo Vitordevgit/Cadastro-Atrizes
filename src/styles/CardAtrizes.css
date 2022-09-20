@@ -1,0 +1,23 @@
+.cardAtrizesContainer {
+  position: relative;
+  border: 1px solid black;
+  min-width: 250px;
+  padding-bottom: 15px;
+  box-shadow: 1px 1px 5px black;
+  margin-bottom: 20px;
+}
+.cardAtrizesButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+  background-color: transparent;
+  border: transparent;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.cardAtrizesButton:hover {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(176, 176, 176);
+}
