@@ -1,4 +1,4 @@
-import "../Styles/CardAtrizes.css";
+import "../styles/CardAtrizes.css";
 
 function CardAtrizes({ nome, idade, actionButton }) {
   return (

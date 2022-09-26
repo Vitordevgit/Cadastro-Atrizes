@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CardAtrizes from "../components/CardAtrizes";
-import "../Styles/AtrizesScreen.css";
+import "../styles/AtrizesScreen.css";
 
 function AtrizesScreen() {
   // 1 - Endereço do servidor
