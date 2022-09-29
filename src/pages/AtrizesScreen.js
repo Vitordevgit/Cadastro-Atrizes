@@ -6,7 +6,7 @@ function AtrizesScreen() {
   // 1 - Endereço do servidor
   const URL =
     process.env.ENVIRONMENT === "prod"
-      ? "http://localhost/api/atrizes"
+      ? "/api/atrizes"
       : "http://localhost:3000/atrizes/";
   //2 - Vetor para armazenar objetos que vem do end-point
   const [atrizes, setAtrizes] = useState([]);
