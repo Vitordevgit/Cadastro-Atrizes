@@ -4,7 +4,10 @@ import "../styles/AtrizesScreen.css";
 
 function AtrizesScreen() {
   // 1 - Endereço do servidor
-  const URL = "http://localhost:3000/atrizes/";
+  const URL =
+    process.env.ENVIRONMENT === "prod"
+      ? "http://localhost/api/atrizes"
+      : "http://localhost:3000/atrizes/";
   //2 - Vetor para armazenar objetos que vem do end-point
   const [atrizes, setAtrizes] = useState([]);
   const [nome, setNome] = useState("");
